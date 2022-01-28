@@ -357,15 +357,24 @@ header .navbar ul li a:hover{
     header.toggle{
         left: 0;
     }
-} 
+    
+}
 
 @media (max-width:768px){
     html{
-        font-size: 50%;
+        font-size: 45%;
     }
+    .skill-bar{
+        margin:2rem 3rem;
+        width: 80%;
+    }
+    
 }
 
 @media (max-width:400px){
+    html{
+        font-size: 30%;
+    }
     header{
         width: 100vw;
         
@@ -383,10 +392,11 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
-     .skill-bar {
-        position: relative;
-        align-items: center;
+    .skill-bar{
+        margin:2rem 3rem;
+        width: 80%;
     }
+    
 
 
 }
